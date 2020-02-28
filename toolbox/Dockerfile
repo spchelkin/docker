@@ -1,5 +1,6 @@
 # docker initial buildout
 # from base alpine image
+
 FROM alpine
 RUN apk add --no-cache curl wget busybox-extras netcat-openbsd python py-pip && \
     pip install awscli
